@@ -29,8 +29,6 @@ pipeline{
             steps{
                 sh """
                     echo "Running app"
-                    ls
-                    cd jenkins-test
                     python3 simple-cli.py hello --name="Kim"
                     python3 simple-cli.py sum_list --numbers="[1,2,3]"
                     python3 simple-cli.py multiply 2 4
