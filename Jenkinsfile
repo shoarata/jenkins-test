@@ -1,4 +1,4 @@
-Pipeline{
+pipeline{
     agent{
         node{
             label 'agent-python'
